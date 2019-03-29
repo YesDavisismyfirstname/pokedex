@@ -1,0 +1,111 @@
+/* Local Style options. 
+pfont is primary font family
+sfont is secondary font family
+style handles background color and font color
+tx-sz sets configurable font sizing (note relative sizing for headers)
+bg-nav options provide the structure for styling hovers and dropdowns on header nav bars. apply to either the entire header div or the menu itself
+*/
+.pfont {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sfont {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.style-pri-1{
+    background-color: white;
+}
+.tx-sz-sm {
+    font-size: .8em;
+}
+.style-pri-2 {
+    background-color: rgb(218, 218, 218);
+}
+.style-pri-3 {
+    background-color: rgb(26, 113, 148);
+    color: white;
+}
+.style-pri-4 {
+    background-color: rgb(163, 195, 241);
+}
+
+.bg-nav-1 {
+    background-color: rgb(26, 113, 148);
+    color: white;
+    
+} 
+.bg-nav-1 div > div a {
+    background-color: rgb(26, 113, 148);
+    color: white;
+} 
+
+.bg-nav-1 a:hover{
+    background-color: rgb(6, 60, 82);
+    color: white;
+
+} 
+
+.bg-nav-2 {
+    background-color: rgb(66, 66, 66);
+    color: white;
+} 
+
+.bg-nav-2 a:hover{
+    background-color: rgb(39, 51, 56);
+    color: white;
+    
+} 
+.bg-nav-3 {
+    background-color: rgb(126, 53, 53);
+    color: white;
+} 
+
+.bg-nav-3 a:hover{
+    background-color: rgb(104, 124, 133);
+    color: white;
+} 
+.bg-nav-4 {
+    background-color: white;
+    color: black;
+} 
+
+.bg-nav-4 a:hover{
+    background-color: rgb(104, 124, 133);
+    color: white;
+} 
+
+#pager{
+    width: 100%;
+    text-align: center;
+}
+#pager button{
+    background-color: white;
+    width: auto;
+    display: inline-block;
+    border-right: 1px solid black;
+    padding: 5px;
+    color: black;
+} 
+
+#pager button:hover{
+    background-color: rgb(104, 124, 133);
+    color: white;
+} 
+#pager .current {
+    background-color: rgb(30, 88, 116);
+    color: white;
+} 
+
+#pokedex {
+    background-color: #d0cece;
+}
+#pokedex img {
+    width: 33.3%;
+    display: inline-block;
+}
+#pokedex img:hover {
+    background-color: darkgray;
+}
+#pokedex .select{
+    background-color: darkgray;
+}
