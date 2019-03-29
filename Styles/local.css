@@ -100,7 +100,7 @@ bg-nav options provide the structure for styling hovers and dropdowns on header 
     background-color: #d0cece;
 }
 #pokedex img {
-    width: 33.3%;
+    width: 20%;
     display: inline-block;
 }
 #pokedex img:hover {
@@ -108,4 +108,22 @@ bg-nav options provide the structure for styling hovers and dropdowns on header 
 }
 #pokedex .select{
     background-color: darkgray;
+}
+
+#pokestat {
+    background-color: white;
+    width: 80%;
+    padding: 20px;
+    border: 15px solid red;
+}
+#pokestat img, #pokestat h2 {
+    background-color: white;
+    width: 80%;
+    margin: 10%;
+    text-align: center;
+}
+#pokestat ul li {
+    margin-left: 8px;
+    list-style-position: inside;
+    list-style: initial;
 }
